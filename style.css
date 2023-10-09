@@ -1,0 +1,103 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a font family */
+body {
+    font-family: MercurySSm-Book-Pro_Web, serif;
+}
+
+/* Define text color and background color */
+body {
+    color: #0a2458;
+    background: #fff;
+}
+
+/* Set line height */
+body {
+    line-height: 1.7;
+}
+
+/* Remove default link styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    background-color: #0a2458;
+}
+
+/* Style the date in the header */
+header p {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Style the title in the header */
+header h1 {
+    font-size: 32px;
+    margin: 10px 0;
+   
+    text-align: center;
+}
+
+/* Style the breadcrumb navigation */
+.wh-breadcrumbs ol {
+    list-style: none;
+    padding: 0;
+}
+
+.wh-breadcrumbs li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Style the introduction section */
+.introduction {
+    margin: 20px;
+}
+
+/* Style the first section */
+.first-section {
+    margin: 20px;
+}
+
+/* Style the second section */
+.second-section {
+    margin: 20px;
+}
+
+/* Style section headings */
+h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* Style paragraphs */
+p {
+    margin-bottom: 10px;
+}
+
+/* Style unordered lists */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Style list items */
+li {
+    margin-bottom: 5px;
+}
+
+/* Style the selection color */
+::selection {
+    background: #9c1919;
+    color: #fff;
+}

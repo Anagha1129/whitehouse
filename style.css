@@ -1,27 +1,173 @@
-/* Reset some default styles */
 body, html {
     margin: 0;
     padding: 0;
 }
 
-/* Apply a font family */
-body {
-    font-family: MercurySSm-Book-Pro_Web, serif;
+
+.row {
+    list-style: none;
+}
+.justify-content-center {
+    justify-content: center!important;
+}
+.row {
+    list-style: none;
+}
+.justify-content-center {
+    justify-content: center!important;
+}
+.topper-primary .col {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
-/* Define text color and background color */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+body {
+    font-family: MercurySSm-Book-Pro_Web, serif;
+   
+}
+.topper .topper__date {
+    margin-bottom: 15px;
+}
+
+
+.shared-meta {
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+:after, :before {
+    text-decoration: inherit;
+    vertical-align: inherit;
+}
+::selection {
+    background: #9c1919;
+    color: #fff;
+}
+.shared-meta {
+    display: flex;
+    flex-direction: column
+}
+
 body {
     color: #0a2458;
     background: #fff;
 }
-.topper__title {
+.topper-primary .topper__deck, .topper-primary .topper__subtitle, .topper-primary .topper__title {
     color: #0a2458;
     flex: 0 0 auto;
     max-width: 100%;
     text-align: center;
     width: 100%;
 }
+.topper .topper__title {
+    margin: 0
+}h1 {
+    display: block;
+    align-content: center ;
+    margin-inline-start: 10vw;
+    margin-inline-end: 10vw;
+    
+}
+[data-beat="1"] {
+    animation-delay: .35s!important;
+}
 
+.h1news, h1.news {
+    font-family: MercurySSm-Book-Pro_Web,serif;
+    font-size: 25px;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: -.015em;
+    line-height: 132%;
+}
+
+
+.topper-primary .topper__deck, .topper-primary .topper__subtitle, .topper-primary .topper__title {
+    color: #0a2458;
+    flex: 0 0 auto;
+    max-width: 100%;
+    text-align: center;
+    width: 100%;
+}h1 {
+   
+    margin: 0.em 0;
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .content {
+        width: 100%;
+    }
+ }
+*, :after, :before {
+    box-sizing: border-box;
+}
+[data-beat="3"] {
+    animation-delay: 1.05s!important;
+}
+.wh-breadcrumbs {
+    display: block;
+    margin-top: 15px;
+    width: 100%;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.wh-breadcrumbs__wrap {
+    align-items: center;
+    border-bottom: 1px solid #d7dae2;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 36px;
+    padding: 0 0 12px;
+}
+nav ol, nav ul {
+    list-style: none;
+}
+.body-copy, ol, p, ul {
+    font-family: MercurySSm-Book-Pro_Web,serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 170%;
+}
+ol, ul {
+    box-sizing: border-box;
+}
+ol {
+    
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.wh-breadcrumb {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.wh-breadcrumb--home .wh-breadcrumb__link {
+    align-items: center;
+    border: none!important;
+    color: #102455;
+    display: flex;
+    width: 100%;
+}
+.wh-breadcrumb__link {
+   
+    text-decoration: none;
+    transition: .2s ease;
+}
 /* Set line height */
 body {
     line-height: 1.7;
@@ -41,13 +187,13 @@ header {
     background-color: #0a2458;
 }
 
-/* Style the date in the header */
+
 header p {
     font-size: 18px;
     margin: 0;
 }
 
-/* Style the title in the header */
+
 header h1 {
     font-size: 32px;
     margin: 10px 0;
@@ -55,7 +201,7 @@ header h1 {
     text-align: center;
 }
 
-/* Style the breadcrumb navigation */
+
 .wh-breadcrumbs ol {
     list-style: none;
     padding: 0;
@@ -66,44 +212,44 @@ header h1 {
     margin-right: 10px;
 }
 
-/* Style the introduction section */
+
 .introduction {
     margin: 20px;
 }
 
-/* Style the first section */
+
 .first-section {
     margin: 20px;
 }
 
-/* Style the second section */
+
 .second-section {
     margin: 20px;
 }
 
-/* Style section headings */
+
 h2 {
     font-size: 24px;
     margin: 10px 0;
 }
 
-/* Style paragraphs */
+
 p {
     margin-bottom: 10px;
 }
 
-/* Style unordered lists */
+
 ul {
     list-style-type: disc;
     margin-left: 20px;
 }
 
-/* Style list items */
+
 li {
     margin-bottom: 5px;
 }
 
-/* Style the selection color */
+
 ::selection {
     background: #9c1919;
     color: #fff;
